@@ -93,37 +93,65 @@
 
 // 06 - Cake v2
 
-const cakes = [
-    {
-        name: "cake",
-        flavor: "vanilla",
-        status: "available"
-    },
+// const cakes = [
+//     {
+//         name: "cake",
+//         flavor: "vanilla",
+//         status: "available"
+//     },
 
-    {
-        name: "brownie",
-        flavor: "chocolate",
-        status: "available"
-    },
-    {
-		name: "pie",
-		flavor: "strawberry",
-		status: "available"
-	},
-	{
-		name: "muffin",
-		flavor: "pistachio",
-		status: "available"
-	},
-	{
-		name: "donut",
-		flavor: "chocolate",
-		status: "available"
-	},
-]
+//     {
+//         name: "brownie",
+//         flavor: "chocolate",
+//         status: "available"
+//     },
+//     {
+// 		name: "pie",
+// 		flavor: "strawberry",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "muffin",
+// 		flavor: "pistachio",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "donut",
+// 		flavor: "chocolate",
+// 		status: "available"
+// 	},
+// ]
 
-const pieCake = cakes.find((cake) => {
-    return cake.name === "pie" 
-})
+// const pieCake = cakes.find((cake) => {
+//     return cake.name === "pie" 
+// })
 
-console.log(pieCake)
+// console.log(pieCake)
+
+// 07 - Factorielle forEach
+
+// const arrayFact = [1,2,3,4,5,6,7,8,9]
+// let fact = 1
+
+// const factorielle = arrayFact.forEach((num) => {
+//     fact = fact * num
+//     return fact
+// })
+
+// console.log(factorielle)
+
+// 08 - Chess board
+
+
+
+
+
+//  09 - Exercice 3 bis
+
+// const arrayNoFilter = [12, 55, "hello", true, { isStudent: false }, 3]
+
+// const arrayFilter = arrayNoFilter.filter((num) => {
+//      return typeof(num) === "number"
+// })
+
+// console.log(arrayFilter)
