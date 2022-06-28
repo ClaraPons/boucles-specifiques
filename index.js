@@ -142,8 +142,29 @@
 
 // 08 - Chess board
 
+// const array = [1,2,3,4,5,6,7,8]
 
+// const chessBoard = array.forEach((num, i) => {
+//         let box = ""
+//         array.forEach((num, j) => {
+//             if (i % 2 === 0) {
+//                 if(j % 2 === 0){
+//                     return box += "[ ]" 
+//                 }else{
+//                     return box += "[X]"
+//                 }
+//             }else{
+//                 if(j % 2 !== 0){
+//                     return box += "[ ]" 
+//                 }else{
+//                     return box += "[X]"
+//                 }
+//             }
+//         })
+//         console.log(box)
+// })
 
+// console.log(chessBoard)
 
 
 //  09 - Exercice 3 bis
