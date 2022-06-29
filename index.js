@@ -31,10 +31,10 @@
 
 // 03 - Filter Numbers
 
-// const array = [1, "toto", 34, "javascript", 8]
+// const elements = [1, "toto", 34, "javascript", 8]
 
-// const numbers = array.filter((num) => {
-//     return typeof(num) === "number"
+// const numbers = elements.filter((element) => {
+//     return typeof(element) === "number"
 // })
 
 // console.log(numbers)
@@ -81,10 +81,10 @@
 // ]
 
 // const chocolateCake = cakes.filter((cake) => {
-//         if (cake.flavor === "chocolate"){
-//             return cake
-//         } 
-// }).map((cake) => {
+//         return cake.flavor === "chocolate"
+// })
+
+// const soldOut = chocolateCake.map((cake) => {
 //         cake.status = "Sold out !"
 //         return cake
 //  })
@@ -133,20 +133,19 @@
 // const arrayFact = [1,2,3,4,5,6,7,8,9]
 // let fact = 1
 
-// const factorielle = arrayFact.forEach((num) => {
+// arrayFact.forEach((num) => {
 //     fact = fact * num
-//     return fact
 // })
 
-// console.log(factorielle)
+// console.log(fact)
 
 // 08 - Chess board
 
-// const array = [1,2,3,4,5,6,7,8]
+// const line = [1,2,3,4,5,6,7,8]
 
-// const chessBoard = array.forEach((num, i) => {
+// const chessBoard = line.forEach((num, i) => {
 //         let box = ""
-//         array.forEach((num, j) => {
+//         line.forEach((num, j) => {
 //             if (i % 2 === 0) {
 //                 if(j % 2 === 0){
 //                     return box += "[ ]" 
